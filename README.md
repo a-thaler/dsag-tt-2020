@@ -1,7 +1,7 @@
 # DSAG TT Hands-on Workshop (Develop and Deliver Cloud-Native Extensions for SAP C/4HANA)
 
 ## Project Description
-This is a sample project that will be used in DSAG TT hands-on session to demonstrate how SAP Cloud Platform Extension Factory, Kyma runtime helps you create an extension (Lambda function) consuming APIs and events from SAP Cloud for Customer. 
+This is a sample project that will be used in DSAG TT hands-on session to demonstrate how SAP Cloud Platform Extension Factory's Kyma runtime helps you create an extension (Lambda function) consuming APIs and events from SAP Cloud for Customer. 
 
 ## Requirements
 In order to run the sample extension, users should have an Kyma runtime (cluster) and a SAP Cloud for Customer tenant.
