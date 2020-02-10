@@ -25,7 +25,7 @@ const labelMap = {
 // Create http client for C4C
 const c4cClient = axios.create({
     baseURL: process.env.GATEWAY_URL,
-    timeout: 20000,
+    timeout: 30000,
     headers: { 'Accept': 'application/json' }
 });
 //Assemble headers for C4C for local testing (APPGW_HOST)
@@ -74,7 +74,7 @@ module.exports = {
             }
             return
         } catch (error) {
-            console.log(error);
+            console.log(`An error happened, waiting for re-try. ${error.error?error.error:""}`);
             throw error
         }
     }
