@@ -3,7 +3,7 @@
 const axios = require('axios');
 
 // Form data provides the means to create multipart/form-data requests
-const FormData = require('form-data')
+const FormData = require('form-data');
 
 // supported image content types and the matching file names 
 // file names are used, as images embeded into an html e-mail
